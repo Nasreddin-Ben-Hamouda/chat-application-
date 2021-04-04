@@ -934,13 +934,13 @@ function setActiveStatus(status, user_id) {
  */
 $(document).ready(function () {
     // get contacts list
-    //getContacts();
+    getContacts();
 
     // get contacts list
     getFavoritesList();
 
     // get all users list
-    //getUsers();
+    getUsers();
 
     // Clear typing timeout
     clearTimeout(typingTimeout);

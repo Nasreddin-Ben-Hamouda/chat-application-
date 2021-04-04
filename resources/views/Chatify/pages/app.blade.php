@@ -16,7 +16,7 @@
             <input type="text" class="messenger-search" placeholder="Search" />
             {{-- Tabs --}}
             <div class="messenger-listView-tabs">
-                <a href="#" @if($route == 'user') class="active-tab" @endif data-view="users">
+                <a href="#" @if($route == 'user') class="active-tab" onclick="getContacts()" @endif data-view="users">
                     <span class="far fa-user"></span> People</a>
                 <a href="#" onclick="getUsers()" @if($route == 'group') class="active-tab" @endif data-view="groups">
                     <span class="fas fa-users"></span> Contacts</a>
