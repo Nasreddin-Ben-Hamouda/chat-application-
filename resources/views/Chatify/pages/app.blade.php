@@ -112,7 +112,7 @@
         <nav>
             <a href="#"><i class="fas fa-times"></i></a>
         </nav>
-        {!! view('Chatify.layouts.info')->render() !!}
+        {!! view('Chatify::layouts.info')->render() !!}
     </div>
 </div>
 
